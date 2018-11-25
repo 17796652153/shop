@@ -1,0 +1,73 @@
+@import "base.css";
+.container{
+    width: 100%;
+    background: #f8f8f8;
+    height: 50px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #dedede;
+}
+.container>.top{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 50px;
+}
+.container>.top>.tleft{
+    float: left;
+    margin-right: 15px;
+}
+.container>.top>a{
+    float: left;
+}
+.container>.top>ul>li{
+    float: right;
+    margin-left: 30px;
+}
+.container>.top>ul>li:nth-of-type(1){
+    margin-right: 3px;
+}
+.bottom{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.bottom>h1{
+    font-size: 30px;
+    cursor: pointer;
+}
+.bottom>h1>a{
+    color: rgb(102, 102, 102);
+}
+.bottom>.search{
+    width:500px;
+    position: relative;
+}
+.bottom>.search>input{
+    height:42px;
+    width:400px;
+    border: 1px solid #e4393c;
+}
+.bottom>.search>a{
+    position: absolute;
+    display: inline-block;
+    height: 44px;
+    width: 76px;
+    background: #e4393c url(../img/header/head-icons.png) no-repeat 24px -110px;
+    border: none;
+}
+.bottom>.cart{
+    background: #f8f8f8;
+    height: 50px;
+    width:100px;
+    line-height: 50px;
+    border-radius: 2px;
+    margin-right: 5px;
+    cursor: pointer; 
+}
+.bottom>.cart>i{
+    margin-left: 14px;
+    position: relative;
+    top: 3px;
+    height: 15px;
+    width: 15px;
+    background: url("../img/header/mallcart_icon.gif") no-repeat;
+}

@@ -1,0 +1,22 @@
+footer{
+    width: 100%;
+    background: #f8f8f8;
+}
+footer>.help{
+    width:1200px;
+    margin:0 auto;
+}
+footer>.help>ul>li:first-of-type{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+footer>.help>ul>li{
+    margin-bottom: 10px;
+}
+
+footer>.copy{
+    width: 1200px;
+    text-align: center;
+    margin:0 auto;
+}
